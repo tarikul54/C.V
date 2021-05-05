@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: burlywood;
+
+}
+header{
+
+}
+.profile-img{
+    width: 100px;
+    height:120px ;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+  
+}
+.profile-bio{
+   padding: 30px;
+   float: left;
+
+}
+.profile-contact{
+    float: right;    
+    padding: 20px;
+
+}
+.profile-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.profile-contact a:hover{
+    text-decoration:underline;
+    color: tomato;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+#personal-section{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content{
+margin-bottom: 30px;
+}
+.left-div{
+width: 30%;
+float: left;
+}
+.right-div{
+width: 70%;
+float: right;
+}
+.common-hr{
+    border:solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20 auto;
+}
+#Work-experence-section{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#key-experence-section{
+    padding: 20px;
+    box-sizing: border-box;
+}
+#education-section{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-education-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.right-education-right{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.foot{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.foot p{
+    color: white;
+}
